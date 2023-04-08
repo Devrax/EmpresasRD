@@ -1,0 +1,123 @@
+body {
+    width: 600px;
+    height: 400px;
+}
+
+main {
+    padding: 16px;
+}
+
+.searcher {
+    display: flex;
+}
+
+.searcher input {
+    flex: 1;
+}
+
+#loader {
+    display: none;
+    height: 65vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-card {
+    border-bottom: solid 2px #00000029;
+}
+
+.company-card .company-title-header {
+    transition: color 0.2s ease;
+    margin: 0;
+    font-weight: 600;
+}
+
+.company-card .company-title-header:hover, .company-card .company-title-header:focus {
+    color: #930002;
+}
+
+.company-card .company-title-header:active {
+    color: #6c0103;
+}
+
+
+.company-card .company-subheader {
+    display: flex;
+}
+
+.company-card .company-subheader p{
+    margin: 0;
+    font-size: 1rem;
+    line-height: 2.5;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 450px;
+
+}
+
+.company-card .company-subheader a{
+    width: 24px;
+}
+
+.company-card .company-subheader p.registrada::after {
+    content: '- Registrada';
+    color: rgb(45, 206, 45);
+    font-weight: 800;
+}
+
+.company-card .company-subheader p.inactive::after {
+    content: '- Inactivo';
+    color: rgb(212, 18, 18);
+    font-weight: 800;
+}
+
+.spanlabel::before {
+    font-weight: 600;
+    display: block;
+}
+
+.company_number::before {
+    content: 'Número de compañia: ';
+}
+
+.expiry::before {
+    content: "Fecha de expiración: ";
+}
+
+.status::before {
+    content: 'Estado: ';
+}
+
+.incorporation_date::before {
+    content: 'Fecha de incorporación: ';
+}
+
+.dissolution::before {
+    content: "Fecha de disolución: ";
+}
+
+.company_type::before {
+    content: "Tipo de compañia: ";
+}
+
+.jurisdiction::before {
+    content: "Juridicción: ";
+}
+
+.registered_address::before {
+    content: "Dirección: ";
+}
+
+.business_classification_text::before {
+    content: "Clasificacion de negocio: ";
+}
+
+.officers::before {
+    content: "Representantes: ";
+}
+
+.registry_page::before {
+    content: "Fuente: ";
+}
+
