@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Empresas RD",
-  "description": "extension would provide users with a quick and easy way to access accurate and comprehensive information about businesses in the Dominican Republic, helping them save time, make informed decisions, gain business insights, and ensure compliance.",
+  "description": "For quick access to info about businesses in the Dominican Republic, ensuring compliance for informed decisions.",
   "version": "0.0.1",
   "icons": {
     "16": "images/opencorpdr-16.png",

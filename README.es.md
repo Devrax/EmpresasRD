@@ -3,13 +3,14 @@ La Extensión de Chrome Empresas RD es una extensión del navegador que brinda a
 
 > Original README [here](README.md);
 
-
 ## Características
 🔍 Funcionalidad de búsqueda: la extensión permite a los usuarios buscar cualquier empresa en la República Dominicana.
 
 💡 Información empresarial: la extensión proporciona a los usuarios información detallada sobre las empresas, incluida su industria, tamaño y estructura de propiedad.
 
 🚫 Comprobador de cumplimiento: la extensión ayuda a los usuarios a garantizar el cumplimiento proporcionando información sobre el estado legal de una empresa, incluido si está registrada en las agencias gubernamentales apropiadas.
+
+![preview](assets/preview.gif)
 
 ## Instalación
 Para instalar la Extensión de Chrome Empresas RD, siga estos sencillos pasos:

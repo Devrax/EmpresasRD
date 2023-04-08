@@ -11,6 +11,8 @@ The Empresas RD Chrome Extension is a browser extension that provides users with
 
 🚫 Compliance Checker: The extension helps users ensure compliance by providing information about a business's legal status, including whether it is registered with the appropriate government agencies.
 
+![preview](assets/preview.gif)
+
 ## Installation
 To install the Empresas RD Chrome Extension, follow these simple steps:
 

@@ -3,6 +3,8 @@ const btn = document.querySelector('#action'),
     searcher = document.querySelector('#searcher'),
     loader = document.querySelector('#loader');
 
+const baseURL = 'https://openbusiness.up.railway.app'
+
 btn.addEventListener('click', async () => {
     loadCompanies();
 });
@@ -15,7 +17,7 @@ async function loadCompanies() {
         btn.setAttribute('disabled', 'disabled');
         presentation.innerHTML = '';
         let url = createURLQuery(searcher.value);
-        const page = await fetch(`http://localhost:3000/companies?url=${encodeURIComponent(url)}`);
+        const page = await fetch(`${baseURL}/companies?url=${encodeURIComponent(url)}`);
         const companies = await page.json();
         loading(false);
         if (!companies.result) {
@@ -40,7 +42,7 @@ async function loadCompany(companyURL) {
     loading(true);
     try {
         presentation.innerHTML = '';
-        const page = await fetch(`http://localhost:3000/company?url=${encodeURIComponent(companyURL)}`);
+        const page = await fetch(`${baseURL}/company?url=${encodeURIComponent(companyURL)}`);
         const company = await page.json();
         loading(false);
         if (!company.result) {
