@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Empresas RD",
   "description": "For quick access to info about businesses in the Dominican Republic, ensuring compliance for informed decisions.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icons": {
     "16": "images/opencorpdr-16.png",
     "32": "images/opencorpdr-32.png",
@@ -15,7 +15,5 @@
   "host_permissions": [
     "<all_urls>"
   ],
-  "permissions": [
-    "tabGroups"
-  ]
+  "permissions": []
 }
